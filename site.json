@@ -1,0 +1,28 @@
+{
+  "metaTitle": "Liu Zhanchong | Creative Log",
+  "name": "Liu Zhanchong",
+  "kicker": "Personal Literature Club",
+  "heroTitle": "空与海的颜色不同，是因为我们知道彼此的去处。",
+  "description": "个人日志、艺术作品和创作碎片的静态小站。气质偏暗色、安静、日系文艺，也保留一点二次元的轻盈感。",
+  "location": "Shanghai / Online",
+  "currentFocus": "Notes, works and small archives",
+  "introTitle": "这里像一间深夜文艺部，也像一个慢慢更新的个人档案。",
+  "introCopy": "维护方式仍然很简单：日志放在 posts.json，作品放在 artworks.json，图片直接放进网站主目录。你以后只需要添加内容，不用重新设计页面。",
+  "aboutTitle": "关于我",
+  "aboutCopy": "这里可以替换成你的个人介绍：你的创作方向、喜欢的媒介、正在推进的项目，或者你想让访客先看到的关键词。语气可以轻一点，像个人主页，也像一份创作者档案。",
+  "footerNote": "Built for GitHub Pages.",
+  "contacts": [
+    {
+      "label": "Email",
+      "href": "mailto:hello@example.com"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/"
+    }
+  ]
+}

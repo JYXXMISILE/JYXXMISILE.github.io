@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Creative Terminal Study",
+    "year": "2026",
+    "medium": "Digital Image",
+    "size": "16:9",
+    "image": "hero-anime-studio.png",
+    "summary": "一张关于个人创作终端、夜晚工作台和虚拟档案界面的视觉草图。",
+    "statement": "这件作品可以作为网站当前的视觉入口，也可以被替换成你自己的实际作品图片。它把日志、作品和创作状态想象成一个可持续维护的个人 UI。"
+  },
+  {
+    "title": "Untitled Note for Light",
+    "year": "2026",
+    "medium": "Installation",
+    "size": "Variable",
+    "image": "",
+    "summary": "一个关于微弱光源和空间边界的装置计划。",
+    "statement": "这里可以写作品阐释：材料、创作背景、展示方式、与你长期主题之间的关系。图片字段为空时，网站会自动使用抽象色块作为占位。"
+  },
+  {
+    "title": "Walking Archive",
+    "year": "2025",
+    "medium": "Photography",
+    "size": "Series",
+    "image": "",
+    "summary": "从日常行走中收集的反光、橱窗和临时构图。",
+    "statement": "这组作品把城市中的偶然图像视为移动档案。你可以在 artworks.json 中继续添加作品条目，并把图片直接放进网站主目录。"
+  }
+]

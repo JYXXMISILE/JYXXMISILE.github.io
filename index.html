@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="个人日志与艺术作品档案。">
+    <title>Personal Archive</title>
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="站点导航">
+      <a class="brand" href="#top" data-site-name>Personal Archive</a>
+      <nav class="nav-links" aria-label="主要导航">
+        <a href="#top"><span aria-hidden="true">◆</span> 问候</a>
+        <a href="#journal"><span aria-hidden="true">⌂</span> 主页</a>
+        <a href="#works"><span aria-hidden="true">✦</span> 作品</a>
+        <a href="#about"><span aria-hidden="true">●</span> 关于</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="hero-eyebrow" data-site-kicker>Creative Log</p>
+        <h1 id="hero-title" class="typewriter" data-site-hero-title data-typewriter aria-live="polite">
+          我的创作存档终端。
+        </h1>
+        <p class="hero-copy" data-site-description>
+          记录创作、展览、阅读和日常观察，让作品与文字在同一个空间里慢慢沉淀。
+        </p>
+        <a class="scroll-cue" href="#journal" aria-label="向下浏览">
+          <span aria-hidden="true">⌄</span>
+        </a>
+      </section>
+
+      <section id="journal" class="section feature" aria-labelledby="feature-title">
+        <article class="feature-card" data-featured-post></article>
+      </section>
+
+      <section class="section journal" aria-labelledby="journal-title">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Journal</p>
+            <h2 id="journal-title">近期日志</h2>
+          </div>
+          <div class="filter-bar" data-post-filters aria-label="日志标签筛选"></div>
+        </div>
+        <div class="post-grid" data-post-list></div>
+      </section>
+
+      <section id="works" class="section works" aria-labelledby="works-title">
+        <div class="section-head">
+          <div>
+            <p class="section-label">Works</p>
+            <h2 id="works-title">作品索引</h2>
+          </div>
+          <div class="filter-bar" data-work-filters aria-label="作品媒介筛选"></div>
+        </div>
+        <div class="work-grid" data-work-list></div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="about-panel">
+          <p class="section-label">About</p>
+          <h2 id="about-title" data-site-about-title>关于我</h2>
+          <p data-site-about-copy>
+            在这里写你的艺术实践、研究兴趣、长期计划，或简单留下联系方式。页面内容集中在 site.json，未来维护时不需要改 HTML。
+          </p>
+          <ul class="contact-list" data-contact-list aria-label="联系方式"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-footer-name>Personal Archive</span>
+      <span data-footer-note>Built for GitHub Pages.</span>
+    </footer>
+
+    <dialog class="work-dialog" data-work-dialog>
+      <button class="dialog-close" type="button" data-dialog-close aria-label="关闭详情">×</button>
+      <div data-dialog-content></div>
+    </dialog>
+
+    <script src="site.js" defer></script>
+  </body>
+</html>
